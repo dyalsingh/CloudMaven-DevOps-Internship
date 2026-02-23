@@ -18,6 +18,9 @@ Environment: Ubuntu 24.04 (WSL2)
 ```bash
 sudo adduser dev
 ```
+<p align="center">
+  <img src="screenshots/lab1-adduser.png" width="1000">
+</p>
 ## 2. Switch User
 
 ```bash
@@ -25,6 +28,10 @@ su - dev
 whoami
 pwd
 ```
+<p align="center">
+  <img src="screenshots/lab-1 Switchuser.png" width="800">
+</p>
+
 
 ## 3. Verify Home Directory
 ```bash
@@ -61,6 +68,10 @@ ls -l /home/dev/checkfile.txt
 su - tester
 cat /home/dev/checkfile.txt
 ```
+<p align="center">
+  <img src="screenshots/lab2chmod.png" width="1000">
+</p>
+
 # Lab 3 Process Control
 ##1. Run Background Process
 ```bash
@@ -80,6 +91,10 @@ Verify termination:
 ```bash
 ps aux | grep sleep
 ```
+<p align="center">
+  <img src="screenshots/lab3-processcontrol.png" width="900">
+</p>
+
 # Lab 4 Vim Editor
 ## 1. Create File Using Vim
 ```bash
@@ -94,3 +109,6 @@ Then :wq
 ```bash
 cat Day1.txt
 ```
+<p align="center">
+  <img src="screenshots/lab4-vim.png" width="900">
+</p>
